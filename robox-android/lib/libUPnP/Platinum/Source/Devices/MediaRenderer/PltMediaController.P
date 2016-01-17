@@ -1,0 +1,165 @@
+Platinum/Source/Devices/MediaRenderer/PltMediaController.o: \
+ Platinum/Source/Devices/MediaRenderer/PltMediaController.cpp \
+ Neptune/Source/Core/Neptune.h Neptune/Source/Core/NptConfig.h \
+ Neptune/Source/Core/NptCommon.h Neptune/Source/Core/NptTypes.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h \
+ Neptune/Source/Core/NptResults.h Neptune/Source/Core/NptConstants.h \
+ Neptune/Source/Core/NptReferences.h Neptune/Source/Core/NptThreads.h \
+ Neptune/Source/Core/NptInterfaces.h Neptune/Source/Core/NptStreams.h \
+ Neptune/Source/Core/NptDataBuffer.h Neptune/Source/Core/NptStrings.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/new \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++config.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/os_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/cpu_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/exception \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_ptr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/nested_exception.h \
+ Neptune/Source/Core/NptList.h Neptune/Source/Core/NptArray.h \
+ Neptune/Source/Core/NptDebug.h Neptune/Source/Core/NptHash.h \
+ Neptune/Source/Core/NptBufferedStreams.h Neptune/Source/Core/NptFile.h \
+ Neptune/Source/Core/NptTime.h Neptune/Source/Core/NptNetwork.h \
+ Neptune/Source/Core/NptSockets.h Neptune/Source/Core/NptSystem.h \
+ Neptune/Source/Core/NptMessaging.h Neptune/Source/Core/NptDynamicCast.h \
+ Neptune/Source/Core/NptQueue.h \
+ Neptune/Source/Core/NptSimpleMessageQueue.h \
+ Neptune/Source/Core/NptSelectableMessageQueue.h \
+ Neptune/Source/Core/NptXml.h Neptune/Source/Core/NptMap.h \
+ Neptune/Source/Core/NptStack.h Neptune/Source/Core/NptUri.h \
+ Neptune/Source/Core/NptHttp.h Neptune/Source/Core/NptVersion.h \
+ Neptune/Source/Core/NptAutomaticCleaner.h Neptune/Source/Core/NptUtils.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h \
+ Neptune/Source/Core/NptRingBuffer.h Neptune/Source/Core/NptBase64.h \
+ Neptune/Source/Core/NptConsole.h Neptune/Source/Core/NptLogging.h \
+ Neptune/Source/Core/NptSerialPort.h \
+ Neptune/Source/Core/NptDynamicLibraries.h \
+ Neptune/Source/Core/NptDigest.h Neptune/Source/Core/NptCrypto.h \
+ Neptune/Source/Core/NptZip.h Neptune/Source/Core/NptTls.h \
+ Platinum/Source/Devices/MediaRenderer/PltMediaController.h \
+ Platinum/Source/Core/PltCtrlPoint.h Platinum/Source/Core/PltService.h \
+ Platinum/Source/Core/PltEvent.h Platinum/Source/Core/PltHttpClientTask.h \
+ Platinum/Source/Core/PltHttp.h Platinum/Source/Platinum/PltVersion.h \
+ Platinum/Source/Core/PltThreadTask.h \
+ Platinum/Source/Core/PltTaskManager.h Platinum/Source/Core/PltArgument.h \
+ Platinum/Source/Core/PltStateVariable.h Platinum/Source/Core/PltAction.h \
+ Platinum/Source/Core/PltDeviceData.h Platinum/Source/Core/PltConstants.h \
+ Platinum/Source/Core/PltSsdp.h Platinum/Source/Core/PltHttpServerTask.h \
+ Platinum/Source/Core/PltDatagramStream.h \
+ Platinum/Source/Core/PltHttpServer.h \
+ Platinum/Source/Devices/MediaServer/PltMediaItem.h \
+ Platinum/Source/Core/PltHttp.h Platinum/Source/Core/PltProtocolInfo.h \
+ Platinum/Source/Devices/MediaServer/PltDidl.h \
+ Platinum/Source/Devices/MediaServer/PltMediaItem.h \
+ Platinum/Source/Core/PltDeviceData.h Platinum/Source/Core/PltUtilities.h
+ Platinum/Source/Devices/MediaRenderer/PltMediaController.cpp :
+ Neptune/Source/Core/Neptune.h Neptune/Source/Core/NptConfig.h :
+ Neptune/Source/Core/NptCommon.h Neptune/Source/Core/NptTypes.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h :
+ Neptune/Source/Core/NptResults.h Neptune/Source/Core/NptConstants.h :
+ Neptune/Source/Core/NptReferences.h Neptune/Source/Core/NptThreads.h :
+ Neptune/Source/Core/NptInterfaces.h Neptune/Source/Core/NptStreams.h :
+ Neptune/Source/Core/NptDataBuffer.h Neptune/Source/Core/NptStrings.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/new :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++config.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/os_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/cpu_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/exception :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/atomic_lockfree_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_ptr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/nested_exception.h :
+ Neptune/Source/Core/NptList.h Neptune/Source/Core/NptArray.h :
+ Neptune/Source/Core/NptDebug.h Neptune/Source/Core/NptHash.h :
+ Neptune/Source/Core/NptBufferedStreams.h Neptune/Source/Core/NptFile.h :
+ Neptune/Source/Core/NptTime.h Neptune/Source/Core/NptNetwork.h :
+ Neptune/Source/Core/NptSockets.h Neptune/Source/Core/NptSystem.h :
+ Neptune/Source/Core/NptMessaging.h Neptune/Source/Core/NptDynamicCast.h :
+ Neptune/Source/Core/NptQueue.h :
+ Neptune/Source/Core/NptSimpleMessageQueue.h :
+ Neptune/Source/Core/NptSelectableMessageQueue.h :
+ Neptune/Source/Core/NptXml.h Neptune/Source/Core/NptMap.h :
+ Neptune/Source/Core/NptStack.h Neptune/Source/Core/NptUri.h :
+ Neptune/Source/Core/NptHttp.h Neptune/Source/Core/NptVersion.h :
+ Neptune/Source/Core/NptAutomaticCleaner.h Neptune/Source/Core/NptUtils.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h :
+ Neptune/Source/Core/NptRingBuffer.h Neptune/Source/Core/NptBase64.h :
+ Neptune/Source/Core/NptConsole.h Neptune/Source/Core/NptLogging.h :
+ Neptune/Source/Core/NptSerialPort.h :
+ Neptune/Source/Core/NptDynamicLibraries.h :
+ Neptune/Source/Core/NptDigest.h Neptune/Source/Core/NptCrypto.h :
+ Neptune/Source/Core/NptZip.h Neptune/Source/Core/NptTls.h :
+ Platinum/Source/Devices/MediaRenderer/PltMediaController.h :
+ Platinum/Source/Core/PltCtrlPoint.h Platinum/Source/Core/PltService.h :
+ Platinum/Source/Core/PltEvent.h Platinum/Source/Core/PltHttpClientTask.h :
+ Platinum/Source/Core/PltHttp.h Platinum/Source/Platinum/PltVersion.h :
+ Platinum/Source/Core/PltThreadTask.h :
+ Platinum/Source/Core/PltTaskManager.h Platinum/Source/Core/PltArgument.h :
+ Platinum/Source/Core/PltStateVariable.h Platinum/Source/Core/PltAction.h :
+ Platinum/Source/Core/PltDeviceData.h Platinum/Source/Core/PltConstants.h :
+ Platinum/Source/Core/PltSsdp.h Platinum/Source/Core/PltHttpServerTask.h :
+ Platinum/Source/Core/PltDatagramStream.h :
+ Platinum/Source/Core/PltHttpServer.h :
+ Platinum/Source/Devices/MediaServer/PltMediaItem.h :
+ Platinum/Source/Core/PltHttp.h Platinum/Source/Core/PltProtocolInfo.h :
+ Platinum/Source/Devices/MediaServer/PltDidl.h :
+ Platinum/Source/Devices/MediaServer/PltMediaItem.h :
+ Platinum/Source/Core/PltDeviceData.h Platinum/Source/Core/PltUtilities.h :

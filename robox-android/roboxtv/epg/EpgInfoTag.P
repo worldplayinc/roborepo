@@ -1,0 +1,528 @@
+EpgInfoTag.o: EpgInfoTag.cpp ../addons/include/xbmc_pvr_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h \
+ ../addons/include/xbmc_addon_types.h ../addons/include/xbmc_epg_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/time.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/time.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/time.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/siginfo.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/siginfo.h \
+ ../addons/include/xbmc_codec_types.h ../guilib/LocalizeStrings.h \
+ ../threads/CriticalSection.h ../threads/platform/CriticalSection.h \
+ ../threads/platform/pthreads/CriticalSection.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/pthread.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/signal.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/signal.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/signal.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/sigcontext.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/ucontext.h \
+ /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/breakpad/sys/user.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/user.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sched.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/errno.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/errno.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/errno.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/errno.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/errno-base.h \
+ ../threads/Lockables.h ../threads/Helpers.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/map \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_tree.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_algobase.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++config.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/os_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/cpu_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/functexcept.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/cpp_type_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/type_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/numeric_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_pair.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/move.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/concept_check.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/type_traits \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/debug/debug.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_iterator.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/allocator.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++allocator.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/new_allocator.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/new \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/exception \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_ptr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/nested_exception.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/memoryfwd.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_function.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/backward/binders.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/alloc_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ptr_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_map.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/initializer_list \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/tuple \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/utility \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_relops.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/array \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/stdexcept \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/string \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stringfwd.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/char_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/postypes.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cwchar \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/wchar.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cstdint \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/localefwd.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++locale.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/clocale \
+ /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/locale.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/iosfwd \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cctype \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/ctype.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ostream_insert.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/cxxabi_forced.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/range_access.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_string.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/atomicity.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/gthr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/gthr-default.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/atomic_word.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/functional_hash.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/hash_bytes.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_string.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/uses_allocator.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_multimap.h \
+ ../pvr/PVRManager.h ../FileItem.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/memory \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_construct.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/alloc_traits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_uninitialized.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_tempbuf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_raw_storage_iter.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/typeinfo \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/concurrence.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/functional \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/unique_ptr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/shared_ptr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/shared_ptr_base.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/backward/auto_ptr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/vector \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_vector.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_bvector.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/vector.tcc \
+ ../guilib/GUIListItem.h ../GUIPassword.h \
+ ../settings/lib/ISettingCallback.h ../settings/lib/Setting.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/set \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_set.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_multiset.h \
+ ../settings/lib/ISetting.h ../settings/lib/SettingRequirement.h \
+ ../settings/lib/SettingConditions.h ../settings/lib/SettingDefinitions.h \
+ ../utils/BooleanLogic.h ../utils/IXmlDeserializable.h \
+ ../settings/lib/ISettingControl.h ../settings/lib/SettingDependency.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/list \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_list.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/list.tcc \
+ ../settings/lib/SettingUpdate.h ../threads/SharedSection.h \
+ ../threads/Condition.h ../threads/platform/Condition.h \
+ ../threads/platform/pthreads/Condition.h ../threads/SingleLock.h \
+ ../threads/SystemClock.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/limits \
+ ../utils/IArchivable.h ../utils/ISerializable.h ../utils/ISortable.h \
+ ../utils/SortUtils.h ../utils/DatabaseUtils.h ../media/MediaType.h \
+ ../SortFileItem.h ../utils/LabelFormatter.h ../XBDateTime.h ../system.h \
+ ../config.h ../linux/PlatformInclude.h ../linux/PlatformDefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/stat.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stat.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/fcntl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/fcntl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/fcntl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/fcntl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/unistd.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/select.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysconf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/capability.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/pathconf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysinfo.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/kernel.h \
+ ../linux/XHandlePublic.h ../linux/XFileUtils.h ../linux/XTimeUtils.h \
+ ../linux/XMemUtils.h ../linux/ConvUtils.h ../interfaces/IAnnouncer.h \
+ ../threads/Event.h ../threads/Thread.h ../threads/ThreadImpl.h \
+ ../threads/platform/ThreadImpl.h \
+ ../threads/platform/pthreads/ThreadImpl.h ../threads/ThreadLocal.h \
+ ../threads/platform/ThreadLocal.h \
+ ../threads/platform/pthreads/ThreadLocal.h ../commons/ilog.h \
+ ../utils/params_check_macros.h ../utils/JobManager.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/queue \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/deque \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_deque.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/deque.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_heap.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_queue.h \
+ ../utils/Job.h ../utils/Observer.h ../pvr/recordings/PVRRecording.h \
+ ../video/VideoInfoTag.h ../utils/ScraperUrl.h ../utils/Fanart.h \
+ ../utils/StreamDetails.h ../video/Bookmark.h ../pvr/addons/PVRClients.h \
+ ../addons/AddonDatabase.h ../addons/Addon.h ../addons/IAddon.h \
+ ../addons/AddonVersion.h ../utils/XBMCTinyXML.h \
+ /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/tinyxml.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdlib.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/alloca.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/strings.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/memory.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/assert.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/iostream \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ostream \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ios \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ios_base.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_classes.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_classes.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/streambuf \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/streambuf.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_ios.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_facets.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cwctype \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/wctype.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/ctype_base.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/streambuf_iterator.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/ctype_inline.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_facets.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_ios.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ostream.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/istream \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/istream.tcc \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/sstream \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/sstream.tcc \
+ ../dbwrappers/Database.h ../pvr/channels/PVRChannel.h \
+ ../pvr/addons/PVRClient.h ../addons/AddonDll.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/math.h \
+ ../addons/DllAddon.h ../DynamicDll.h ../cores/DllLoader/LibraryLoader.h \
+ ../DllPaths.h ../DllPaths_generated_android.h \
+ ../addons/include/xbmc_addon_cpp_dll.h ../addons/AddonManager.h \
+ ../../lib/cpluff/libcpluff/cpluff.h \
+ ../../lib/cpluff/libcpluff/cpluffdef.h ../addons/AddonStatusHandler.h \
+ ../addons/AddonCallbacks.h \
+ ../addons/../../addons/library.kodi.guilib/libKODI_guilib.h \
+ /home/zach/zach/opt/kodi-android/addons/library.xbmc.addon/libXBMC_addon.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/dlfcn.h \
+ ../addons/../../addons/library.kodi.adsp/libKODI_adsp.h \
+ ../addons/include/kodi_adsp_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cstddef \
+ ../addons/../../addons/library.kodi.audioengine/libKODI_audioengine.h \
+ ../cores/AudioEngine/Utils/AEChannelData.h \
+ ../cores/AudioEngine/Utils/AEChannelInfo.h \
+ ../cores/AudioEngine/Utils/AEStreamData.h \
+ ../addons/include/kodi_audioengine_types.h \
+ ../cores/VideoPlayer/DVDDemuxers/DVDDemuxUtils.h \
+ ../cores/VideoPlayer/DVDDemuxers/DVDDemuxPacket.h ../utils/URIUtils.h \
+ ../filesystem/File.h ../utils/auto_buffer.h ../filesystem/IFileTypes.h \
+ ../filesystem/SpecialProtocol.h ../filesystem/Directory.h \
+ ../filesystem/IDirectory.h ../utils/Variant.h ../utils/log.h \
+ ../utils/posix/PosixInterfaceForCLog.h ../utils/GlobalsHandling.h \
+ ../interfaces/AnnouncementManager.h ../utils/XMLUtils.h ../Util.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/climits \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cmath \
+ ../MediaSource.h ../addons/DllPVRClient.h ../network/ZeroconfBrowser.h \
+ ../pvr/recordings/PVRRecordings.h ../video/VideoDatabase.h \
+ ../addons/Scraper.h ../utils/ScraperParser.h ../video/Episode.h \
+ ../video/VideoDbUrl.h ../DbUrl.h ../URL.h ../utils/UrlOptions.h \
+ ../settings/AdvancedSettings.h ../pictures/PictureScalingAlgorithm.h \
+ ../settings/lib/ISettingsHandler.h ../settings/Settings.h \
+ ../settings/SettingControl.h ../settings/lib/ISettingControlCreator.h \
+ ../settings/SettingCreator.h ../settings/lib/ISettingCreator.h \
+ ../utils/StringUtils.h Epg.h EpgInfoTag.h \
+ ../pvr/timers/PVRTimerInfoTag.h ../pvr/timers/PVRTimerType.h \
+ EpgSearchFilter.h EpgContainer.h EpgDatabase.h
+EpgInfoTag.cpp ../addons/include/xbmc_pvr_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h :
+ ../addons/include/xbmc_addon_types.h ../addons/include/xbmc_epg_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/time.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/time.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/time.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/siginfo.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/siginfo.h :
+ ../addons/include/xbmc_codec_types.h ../guilib/LocalizeStrings.h :
+ ../threads/CriticalSection.h ../threads/platform/CriticalSection.h :
+ ../threads/platform/pthreads/CriticalSection.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/pthread.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/signal.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/signal.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/signal.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/sigcontext.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/ucontext.h :
+ /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/breakpad/sys/user.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/user.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sched.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/errno.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/errno.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/errno.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/errno.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/errno-base.h :
+ ../threads/Lockables.h ../threads/Helpers.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/map :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_tree.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_algobase.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++config.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/os_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/cpu_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/functexcept.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/cpp_type_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/type_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/numeric_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_pair.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/move.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/concept_check.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/type_traits :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_iterator_base_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_iterator_base_funcs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/debug/debug.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_iterator.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/allocator.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++allocator.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/new_allocator.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/new :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/exception :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/atomic_lockfree_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_ptr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/nested_exception.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/memoryfwd.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_function.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/backward/binders.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/alloc_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ptr_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_map.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/initializer_list :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/tuple :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/utility :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_relops.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/array :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/stdexcept :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/string :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stringfwd.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/char_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/postypes.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cwchar :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/wchar.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cstdint :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/localefwd.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++locale.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/clocale :
+ /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/locale.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/iosfwd :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cctype :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/ctype.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ostream_insert.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/cxxabi_forced.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/range_access.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_string.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/atomicity.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/gthr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/gthr-default.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/atomic_word.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/functional_hash.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/hash_bytes.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_string.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/uses_allocator.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_multimap.h :
+ ../pvr/PVRManager.h ../FileItem.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/memory :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_construct.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/alloc_traits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_uninitialized.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_tempbuf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_raw_storage_iter.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/typeinfo :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ext/concurrence.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/functional :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/unique_ptr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/shared_ptr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/shared_ptr_base.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/backward/auto_ptr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/vector :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_vector.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_bvector.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/vector.tcc :
+ ../guilib/GUIListItem.h ../GUIPassword.h :
+ ../settings/lib/ISettingCallback.h ../settings/lib/Setting.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/set :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_set.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_multiset.h :
+ ../settings/lib/ISetting.h ../settings/lib/SettingRequirement.h :
+ ../settings/lib/SettingConditions.h ../settings/lib/SettingDefinitions.h :
+ ../utils/BooleanLogic.h ../utils/IXmlDeserializable.h :
+ ../settings/lib/ISettingControl.h ../settings/lib/SettingDependency.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/list :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_list.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/list.tcc :
+ ../settings/lib/SettingUpdate.h ../threads/SharedSection.h :
+ ../threads/Condition.h ../threads/platform/Condition.h :
+ ../threads/platform/pthreads/Condition.h ../threads/SingleLock.h :
+ ../threads/SystemClock.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/limits :
+ ../utils/IArchivable.h ../utils/ISerializable.h ../utils/ISortable.h :
+ ../utils/SortUtils.h ../utils/DatabaseUtils.h ../media/MediaType.h :
+ ../SortFileItem.h ../utils/LabelFormatter.h ../XBDateTime.h ../system.h :
+ ../config.h ../linux/PlatformInclude.h ../linux/PlatformDefs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/stat.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stat.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/endian.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/endian.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/endian.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/fcntl.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/fcntl.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/fcntl.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/fcntl.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/unistd.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/select.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysconf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/capability.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/pathconf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysinfo.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/kernel.h :
+ ../linux/XHandlePublic.h ../linux/XFileUtils.h ../linux/XTimeUtils.h :
+ ../linux/XMemUtils.h ../linux/ConvUtils.h ../interfaces/IAnnouncer.h :
+ ../threads/Event.h ../threads/Thread.h ../threads/ThreadImpl.h :
+ ../threads/platform/ThreadImpl.h :
+ ../threads/platform/pthreads/ThreadImpl.h ../threads/ThreadLocal.h :
+ ../threads/platform/ThreadLocal.h :
+ ../threads/platform/pthreads/ThreadLocal.h ../commons/ilog.h :
+ ../utils/params_check_macros.h ../utils/JobManager.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/queue :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/deque :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_deque.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/deque.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_heap.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/stl_queue.h :
+ ../utils/Job.h ../utils/Observer.h ../pvr/recordings/PVRRecording.h :
+ ../video/VideoInfoTag.h ../utils/ScraperUrl.h ../utils/Fanart.h :
+ ../utils/StreamDetails.h ../video/Bookmark.h ../pvr/addons/PVRClients.h :
+ ../addons/AddonDatabase.h ../addons/Addon.h ../addons/IAddon.h :
+ ../addons/AddonVersion.h ../utils/XBMCTinyXML.h :
+ /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/tinyxml.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdlib.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/alloca.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/strings.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/memory.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/assert.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/iostream :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ostream :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/ios :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ios_base.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_classes.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_classes.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/streambuf :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/streambuf.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_ios.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_facets.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cwctype :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/wctype.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/ctype_base.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/streambuf_iterator.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/ctype_inline.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/locale_facets.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/basic_ios.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/ostream.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/istream :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/istream.tcc :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/sstream :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/sstream.tcc :
+ ../dbwrappers/Database.h ../pvr/channels/PVRChannel.h :
+ ../pvr/addons/PVRClient.h ../addons/AddonDll.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/math.h :
+ ../addons/DllAddon.h ../DynamicDll.h ../cores/DllLoader/LibraryLoader.h :
+ ../DllPaths.h ../DllPaths_generated_android.h :
+ ../addons/include/xbmc_addon_cpp_dll.h ../addons/AddonManager.h :
+ ../../lib/cpluff/libcpluff/cpluff.h :
+ ../../lib/cpluff/libcpluff/cpluffdef.h ../addons/AddonStatusHandler.h :
+ ../addons/AddonCallbacks.h :
+ ../addons/../../addons/library.kodi.guilib/libKODI_guilib.h :
+ /home/zach/zach/opt/kodi-android/addons/library.xbmc.addon/libXBMC_addon.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/dlfcn.h :
+ ../addons/../../addons/library.kodi.adsp/libKODI_adsp.h :
+ ../addons/include/kodi_adsp_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cstddef :
+ ../addons/../../addons/library.kodi.audioengine/libKODI_audioengine.h :
+ ../cores/AudioEngine/Utils/AEChannelData.h :
+ ../cores/AudioEngine/Utils/AEChannelInfo.h :
+ ../cores/AudioEngine/Utils/AEStreamData.h :
+ ../addons/include/kodi_audioengine_types.h :
+ ../cores/VideoPlayer/DVDDemuxers/DVDDemuxUtils.h :
+ ../cores/VideoPlayer/DVDDemuxers/DVDDemuxPacket.h ../utils/URIUtils.h :
+ ../filesystem/File.h ../utils/auto_buffer.h ../filesystem/IFileTypes.h :
+ ../filesystem/SpecialProtocol.h ../filesystem/Directory.h :
+ ../filesystem/IDirectory.h ../utils/Variant.h ../utils/log.h :
+ ../utils/posix/PosixInterfaceForCLog.h ../utils/GlobalsHandling.h :
+ ../interfaces/AnnouncementManager.h ../utils/XMLUtils.h ../Util.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/climits :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/cmath :
+ ../MediaSource.h ../addons/DllPVRClient.h ../network/ZeroconfBrowser.h :
+ ../pvr/recordings/PVRRecordings.h ../video/VideoDatabase.h :
+ ../addons/Scraper.h ../utils/ScraperParser.h ../video/Episode.h :
+ ../video/VideoDbUrl.h ../DbUrl.h ../URL.h ../utils/UrlOptions.h :
+ ../settings/AdvancedSettings.h ../pictures/PictureScalingAlgorithm.h :
+ ../settings/lib/ISettingsHandler.h ../settings/Settings.h :
+ ../settings/SettingControl.h ../settings/lib/ISettingControlCreator.h :
+ ../settings/SettingCreator.h ../settings/lib/ISettingCreator.h :
+ ../utils/StringUtils.h Epg.h EpgInfoTag.h :
+ ../pvr/timers/PVRTimerInfoTag.h ../pvr/timers/PVRTimerType.h :
+ EpgSearchFilter.h EpgContainer.h EpgDatabase.h :

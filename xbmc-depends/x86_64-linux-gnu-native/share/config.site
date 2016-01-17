@@ -1,0 +1,26 @@
+LD="${LD:-/usr/bin/ld}"
+CC="${CC:-/usr/bin/gcc}"
+CXX="${CXX:-/usr/bin/g++}"
+AR="${AR:-/usr/bin/ar}"
+RANLIB="${RANLIB:-/usr/bin/ranlib}"
+AS="${AS:-/usr/bin/as}"
+NM="${NM:-/usr/bin/nm}"
+STRIP="${STRIP:-/usr/bin/strip}"
+READELF="${READELF:-/usr/bin/readelf}"
+OBJDUMP="${OBJDUMP:-/usr/bin/objdump}"
+
+CFLAGS="-I/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/include $CFLAGS"
+LDFLAGS="-L/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/lib $LDFLAGS"
+CPPFLAGS="-I/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/include $CPPFLAGS"
+CXXFLAGS="-I/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/include $CXXFLAGS"
+
+PKG_CONFIG=/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/bin/pkg-config
+export PKG_CONFIG_LIBDIR=/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/lib/pkgconfig
+
+PATH=/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/bin:$PATH
+if test -n ""; then
+  PATH=/usr/bin:/bin:$PATH
+fi
+
+LD_LIBRARY_PATH=/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/lib:$LD_LIBRARY_PATH
+NASM=/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/bin/yasm

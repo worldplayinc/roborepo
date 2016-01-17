@@ -1,0 +1,3 @@
+Platinum/Source/Devices/MediaServer/PltMediaCache.o: \
+ Platinum/Source/Devices/MediaServer/PltMediaCache.cpp
+ Platinum/Source/Devices/MediaServer/PltMediaCache.cpp :

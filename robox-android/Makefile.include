@@ -1,0 +1,153 @@
+AR=/home/zach/zach/opt/android-toolchain/android-17/bin/arm-linux-androideabi-ar
+ARFLAGS=crs
+RM=rm -rf
+SHELL=/bin/bash
+ARCH=arm
+abs_top_srcdir=/home/zach/zach/opt/kodi-android
+rel_top_srcdir=$(subst $(abspath $(abs_top_srcdir))/,,$(abspath $(CURDIR))/)
+prefix=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17
+exec_prefix=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17
+bindir=${exec_prefix}/bin
+sbindir=${exec_prefix}/sbin
+libexecdir=${exec_prefix}/libexec
+sysconfdir=${prefix}/etc
+sharedstatedir=${prefix}/com
+localstatedir=${prefix}/var
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+oldincludedir=/usr/include
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+infodir=${datarootdir}/info
+localedir=${datarootdir}/locale
+mandir=${datarootdir}/man
+PACKAGE_TARNAME=kodi
+docdir=${datarootdir}/doc/${PACKAGE_TARNAME}
+htmldir=${docdir}
+dvidir=${docdir}
+pdfdir=${docdir}
+psdir=${docdir}
+CXX=/home/zach/zach/opt/android-toolchain/android-17/bin/arm-linux-androideabi-g++
+CXX_FOR_BUILD=g++
+CC=/home/zach/zach/opt/android-toolchain/android-17/bin/arm-linux-androideabi-gcc
+CC_FOR_BUILD=gcc
+CXXFLAGS+=-O2 -g -D_DEBUG -Wall -DANDROID -Os -fexceptions -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=neon -frtti -g -O2 -std=gnu++11 -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/android-17 -isystem /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -DANDROID -Os -fexceptions -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=neon -frtti -g -O2 -std=gnu++11 -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/android-17 -isystem /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -O3 -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Wno-psabi -mno-apcs-stack-check -mfpu=neon -mvectorize-with-neon-quad
+CXXFLAGS_FOR_BUILD+=-g -O2 -I/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/include
+CFLAGS+=-O2 -g -D_DEBUG -Wall -DANDROID -Os -fexceptions -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=neon  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/android-17 -isystem /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -DANDROID -Os -fexceptions -march=armv7-a -mtune=cortex-a9 -mfloat-abi=softfp -mfpu=neon  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/android-17 -isystem /home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -O3 -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Wno-psabi -mno-apcs-stack-check -mfpu=neon -mvectorize-with-neon-quad
+CFLAGS_FOR_BUILD+=-g -O2 -I/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/include
+LDFLAGS+=-L/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/lib -L/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/lib/android-17   
+LDFLAGS_FOR_BUILD+= -L/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/lib -Wl,-rpath=/home/zach/zach/opt/xbmc-depends/x86_64-linux-gnu-native/lib
+INCLUDES+=-I/home/zach/zach/opt/kodi-android
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/lib
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/xbmc
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/xbmc/addons/include
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/addons/library.kodi.guilib
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/addons/library.xbmc.addon
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/addons/library.kodi.adsp
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/addons/library.kodi.audioengine
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/addons/library.xbmc.pvr
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/addons/library.xbmc.codec
+INCLUDES+=$(sort  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/mysql -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/libxml2  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/libxml2  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/fribidi  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/libpng15  -DPCRE_STATIC -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -DPCRE_STATIC -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/freetype2 -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/taglib  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/lib/libzip/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/libcec -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include  -I/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include/breakpad )
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/xbmc/linux
+INCLUDES+=-I/home/zach/zach/opt/kodi-android/xbmc/cores/VideoPlayer
+DEFINES+= \
+	-DTARGET_POSIX -DTARGET_LINUX -D_LINUX -DTARGET_ANDROID \
+	-D_FILE_DEFINED \
+	-D__STDC_CONSTANT_MACROS \
+	-DBIN_INSTALL_PATH="\"$(libdir)/roboxtv\"" \
+	-DINSTALL_PATH="\"$(datarootdir)/roboxtv\"" \
+	 -D'GIT_REV="20160113-cd9b226"' \
+	-DNPT_CONFIG_ENABLE_LOGGING -DPLT_HTTP_DEFAULT_USER_AGENT="\"UPnP/1.0 DLNADOC/1.50 Kodi\"" -DPLT_HTTP_DEFAULT_SERVER="\"UPnP/1.0 DLNADOC/1.50 Kodi\"" \
+	-DHAVE_CONFIG_H \
+
+ifeq ($(findstring osx,$(ARCH)), osx)
+	INCLUDES+=-I/home/zach/zach/opt/kodi-android/xbmc/osx
+endif
+
+ifeq ($(ARCH), powerpc-osx)
+	BUNDLE1_O=-lbundle1.o
+endif
+
+ifneq ($(V), 1)
+	SILENT_CPP=@echo "CPP     $(rel_top_srcdir)$@";
+	SILENT_CC =@echo "CC      $(rel_top_srcdir)$@";
+	SILENT_S  =@echo "S       $(rel_top_srcdir)$@";
+	SILENT_GCH=@echo "GCH     $(rel_top_srcdir)$@";
+	SILENT_MM =@echo "MM      $(rel_top_srcdir)$@";
+	SILENT_AR =@echo "AR      $(rel_top_srcdir)$@";
+	SILENT_LD =@echo "LD      $(rel_top_srcdir)$@";
+endif
+
+OBJS+=$(filter %.o,$(SRCS:.cpp=.o))
+OBJS+=$(filter %.o,$(SRCS:.c=.o))
+OBJS+=$(filter %.o,$(SRCS:.S=.o))
+OBJS+=$(filter %.o,$(SRCS:.mm=.o))
+OBJS+=$(filter %.o,$(SRCS:.m=.o))
+
+DEPS+=$(filter %.P,$(OBJS:.o=.P))
+
+GEN_DEPS=\
+  cp $*.d $*.P \
+  && sed -e 's/\#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+         -e '/^$$/ d' -e 's/$$/ :/' < $*.d >> $*.P \
+  && rm -f $*.d \
+  || ( rm -f $*.P $@ && exit 1 )
+
+%.o: %.cpp
+	@rm -f $@
+	$(SILENT_CPP) $(CXX) -MF $*.d -MD -c $(CXXFLAGS) $(DEFINES) $(INCLUDES) $(CPPFLAGS) $< -o $@ \
+	&& $(GEN_DEPS)
+
+%.o: %.cc
+	@rm -f $@
+	$(SILENT_CPP) $(CXX) -MF $*.d -MD -c $(CXXFLAGS) $(DEFINES) $(INCLUDES) $(CPPFLAGS) $< -o $@ \
+	&& $(GEN_DEPS)
+
+%.o: %.c
+	@rm -f $@
+	$(SILENT_CC) $(CC) -MF $*.d -MD -c $(CFLAGS) $(DEFINES) $(INCLUDES) $(CPPFLAGS) $< -o $@ \
+	&& $(GEN_DEPS)
+
+%.o: %.C
+	@rm -f $@
+	$(SILENT_CPP) $(CXX) -MF $*.d -MD -c $(CFLAGS) $(DEFINES) $(INCLUDES) $(CPPFLAGS) $< -o $@ \
+	&& $(GEN_DEPS)
+
+%.o: %.S
+	@rm -f $@
+	$(SILENT_CC) $(CC) -c $(CFLAGS) $(DEFINES) $(INCLUDES) $< -o $@
+
+
+%.h.gch : %.h
+	$(SILENT_GCH) $(CXX) -c $(CFLAGS) $(DEFINES) $(INCLUDES) $< -o $@
+
+%.o: %.m
+	@rm -f $@
+	$(SILENT_MM) $(CC) -MF $*.d -MD -c $(CFLAGS) $(DEFINES) $(INCLUDES) $< -o $@ \
+	&& $(GEN_DEPS)
+
+%.o: %.mm
+	@rm -f $@
+	$(SILENT_MM) $(CXX) -MF $*.d -MD -c $(CXXFLAGS) $(DEFINES) $(INCLUDES) $< -o $@ \
+	&& $(GEN_DEPS)
+
+
+.PHONY : lib pch clean distclean distclean_evil check testsuite
+
+$(LIB): $(OBJS)
+	$(SILENT_AR) $(AR) $(ARFLAGS) $(LIB) $(OBJS)
+
+pch: $(PCH:.h=.h.gch)
+	for d in $(DIRS); do (cd "$$d"; $(MAKE) pch ); done
+
+clean: 
+	$(RM) $(OBJS) *.o $(LIB) $(SLIB) $(CLEAN_FILES) $(PCH:.h=.h.gch) $(DEPS)
+	for d in $(DIRS); do (if test -f "$$d/Makefile"; then ($(MAKE) -C "$$d" clean); fi ); done
+	for d in $(CHECK_DIRS) $(GTEST_DIR); do if test -f $$d/Makefile; then $(MAKE) -C $$d $@; fi; done
+
+distclean:
+	$(RM) $(OBJS) *.o $(LIB) $(SLIB) $(STATICLIB) $(CLEAN_FILES) $(DISTCLEAN_FILES) $(PCH:.h=.h.gch) $(DEPS)
+	for d in $(DIRS); do (if test -f "$$d/Makefile"; then ($(MAKE) -C "$$d" distclean || $(MAKE) -C "$$d" clean); fi ); done
+	for d in $(CHECK_DIRS) $(GTEST_DIR); do (if test -f "$$d/Makefile"; then ($(MAKE) -C "$$d" $@ || $(MAKE) -C "$$d" clean); fi ); done
+	if [ "$(shell pwd -P)" = "$(abs_top_srcdir)" ] || \
+	   [ "$(shell pwd)" = "$(abs_top_srcdir)" ]; then rm -f $(AUTOGENERATED_MAKEFILES) Makefile.include Makefile; fi

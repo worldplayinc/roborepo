@@ -1,0 +1,4 @@
+DataCacheCore.o: DataCacheCore.cpp \
+ /home/zach/zach/opt/kodi-android/xbmc/cores/DataCacheCore.h
+DataCacheCore.cpp :
+ /home/zach/zach/opt/kodi-android/xbmc/cores/DataCacheCore.h :

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=RoBoXTV
+Comment=This session will start RoBoXTV media center
+Exec=roboxtv-standalone
+TryExec=roboxtv-standalone
+Type=Application

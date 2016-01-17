@@ -1,0 +1,800 @@
+MODULE Linux arm C5F2EC56165809FA4DF389EA92134E5D0 libXBMC_codec-arm.so
+FILE 0 /home/zach/zach/opt/kodi-android/lib/addons/library.xbmc.codec/libXBMC_codec.cpp
+FILE 1 /s/ndk-andrewhsieh/build/toolchain/gcc-4.8/arm-linux-androideabi/armv7-a/libgcc/./unwind.h
+FILE 2 /s/ndk-andrewhsieh/build/toolchain/gcc-4.8/gcc/include/unwind-arm-common.h
+FILE 3 /s/ndk-toolchain/src/build/../gcc/gcc-4.8/libgcc/config/arm/pr-support.c
+FILE 4 /s/ndk-toolchain/src/build/../gcc/gcc-4.8/libgcc/config/arm/unwind-arm.c
+FILE 5 /s/ndk-toolchain/src/build/../gcc/gcc-4.8/libgcc/unwind-arm-common.inc
+FUNC c80 8c 0 CODEC_register_me
+c80 4 43 0
+c84 4 41 0
+c88 4 43 0
+c8c c 47 0
+c98 8 48 0
+ca0 c 52 0
+cac 24 49 0
+cd0 4 42 0
+cd4 38 44 0
+FUNC d0c 20 0 CODEC_unregister_me
+d0c 8 56 0
+d14 4 55 0
+d18 4 56 0
+d1c 10 57 0
+FUNC d2c 38 0 CODEC_get_codec_by_name
+d2c 4 66 0
+d30 4 61 0
+d34 4 64 0
+d38 4 63 0
+d3c 4 61 0
+d40 4 63 0
+d44 4 64 0
+d48 4 66 0
+d4c 10 67 0
+d5c 8 70 0
+FUNC d64 18 0 selfrel_offset31
+d64 4 458 4
+d68 4 460 4
+d6c 4 461 4
+d70 4 463 4
+d74 8 466 4
+FUNC d7c ac 0 search_EIT_table
+d7c 4 158 5
+d80 4 163 5
+d84 8 158 5
+d8c 4 163 5
+d90 4 167 5
+d94 4 166 5
+d98 4 167 5
+d9c c 171 5
+da8 14 172 5
+dbc 8 173 5
+dc4 4 172 5
+dc8 4 173 5
+dcc c 174 5
+dd8 8 178 5
+de0 8 180 5
+de8 8 182 5
+df0 4 174 5
+df4 8 184 5
+dfc 8 187 5
+e04 10 164 5
+e14 8 178 5
+e1c c 189 5
+FUNC e28 50 0 __gnu_unwind_get_pr_addr
+e28 1c 471 4
+e44 c 474 4
+e50 c 477 4
+e5c 8 480 4
+e64 4 483 4
+e68 10 485 4
+FUNC e78 10c 0 get_eit_entry
+e78 4 206 5
+e7c 4 197 5
+e80 8 208 5
+e88 4 197 5
+e8c 4 206 5
+e90 4 208 5
+e94 10 210 5
+ea4 4 212 5
+ea8 4 214 5
+eac c 212 5
+eb8 10 221 5
+ec8 4 220 5
+ecc 8 221 5
+ed4 c 224 5
+ee0 8 226 5
+ee8 4 228 5
+eec 8 229 5
+ef4 4 231 5
+ef8 8 234 5
+f00 4 231 5
+f04 4 236 5
+f08 4 237 5
+f0c 4 236 5
+f10 4 237 5
+f14 8 242 5
+f1c 4 245 5
+f20 4 246 5
+f24 4 242 5
+f28 4 253 5
+f2c 4 254 5
+f30 4 252 5
+f34 4 258 5
+f38 4 254 5
+f3c c 258 5
+f48 8 262 5
+f50 4 266 5
+f54 4 262 5
+f58 c 266 5
+f64 8 272 5
+f6c 4 274 5
+f70 14 275 5
+FUNC f84 6c 0 restore_non_core_regs
+f84 4 126 4
+f88 4 125 4
+f8c 4 126 4
+f90 4 125 4
+f94 4 126 4
+f98 c 128 4
+fa4 8 129 4
+fac 4 131 4
+fb0 c 134 4
+fbc 8 135 4
+fc4 c 137 4
+fd0 8 138 4
+fd8 c 139 4
+fe4 4 140 4
+fe8 4 141 4
+fec 4 140 4
+FUNC ff0 14 0 _Unwind_decode_typeinfo_ptr
+ff0 4 46 1
+ff4 4 48 1
+ff8 4 55 1
+ffc 4 49 1
+1000 4 65 1
+FUNC 1004 8 0 __gnu_unwind_24bit
+1004 8 73 1
+FUNC 100c 4 0 _Unwind_DebugHook
+100c 4 132 5
+FUNC 1010 64 0 unwind_phase2
+1010 c 282 5
+101c 14 288 5
+1030 4 289 5
+1034 4 291 5
+1038 c 294 5
+1044 4 291 5
+1048 8 294 5
+1050 8 297 5
+1058 8 299 5
+1060 14 302 5
+FUNC 1074 124 0 unwind_phase2_forced
+1074 4 310 5
+1078 4 319 5
+107c 4 311 5
+1080 4 310 5
+1084 4 312 5
+1088 4 310 5
+108c 4 319 5
+1090 4 310 5
+1094 8 319 5
+109c 4 346 5
+10a0 4 322 5
+10a4 1c 319 5
+10c0 4 322 5
+10c4 c 332 5
+10d0 c 340 5
+10dc 4 342 5
+10e0 4 363 5
+10e4 4 365 5
+10e8 4 342 5
+10ec 4 344 5
+10f0 c 346 5
+10fc 4 344 5
+1100 4 346 5
+1104 14 349 5
+1118 4 352 5
+111c 4 349 5
+1120 4 365 5
+1124 1c 368 5
+1140 8 370 5
+1148 8 373 5
+1150 10 376 5
+1160 8 378 5
+1168 8 380 5
+1170 14 387 5
+1184 8 371 5
+118c 4 332 5
+1190 8 388 5
+FUNC 1198 8 0 _Unwind_GetCFA
+1198 8 401 5
+FUNC 11a0 a4 0 __gnu_Unwind_RaiseException
+11a0 4 417 5
+11a4 4 412 5
+11a8 4 420 5
+11ac 4 417 5
+11b0 c 412 5
+11bc 8 420 5
+11c4 4 422 5
+11c8 1c 420 5
+11e4 8 422 5
+11ec 14 428 5
+1200 10 432 5
+1210 4 435 5
+1214 4 432 5
+1218 4 435 5
+121c 8 439 5
+1224 8 440 5
+122c c 447 5
+1238 c 448 5
+FUNC 1244 1c 0 __gnu_Unwind_ForcedUnwind
+1244 4 463 5
+1248 4 466 5
+124c 4 462 5
+1250 4 468 5
+1254 4 466 5
+1258 8 468 5
+FUNC 1260 74 0 __gnu_Unwind_Resume
+1260 4 476 5
+1264 4 476 5
+1268 4 482 5
+126c 4 476 5
+1270 4 480 5
+1274 4 482 5
+1278 4 480 5
+127c 4 482 5
+1280 c 484 5
+128c 14 491 5
+12a0 10 494 5
+12b0 c 502 5
+12bc 14 498 5
+12d0 4 505 5
+FUNC 12d4 20 0 __gnu_Unwind_Resume_or_Rethrow
+12d4 c 516 5
+12e0 4 517 5
+12e4 8 520 5
+12ec 8 522 5
+FUNC 12f4 4 0 _Unwind_Complete
+12f4 4 528 5
+FUNC 12f8 20 0 _Unwind_DeleteException
+12f8 4 536 5
+12fc 4 536 5
+1300 c 537 5
+130c c 538 5
+FUNC 1318 5c 0 _Unwind_VRS_Get
+1318 20 163 4
+1338 8 175 4
+1340 14 166 4
+1354 4 169 4
+1358 4 170 4
+135c c 169 4
+1368 4 170 4
+136c 4 168 4
+1370 4 180 4
+FUNC 1374 28 0 _Unwind_GetGR
+1374 4 221 2
+1378 4 221 2
+137c 14 223 2
+1390 c 225 2
+FUNC 139c 5c 0 _Unwind_VRS_Set
+139c 20 193 4
+13bc 8 206 4
+13c4 14 196 4
+13d8 8 200 4
+13e0 4 201 4
+13e4 8 200 4
+13ec 4 201 4
+13f0 4 198 4
+13f4 4 211 4
+FUNC 13f8 2c 0 _Unwind_SetGR
+13f8 4 232 2
+13fc 8 232 2
+1404 4 233 2
+1408 4 232 2
+140c 10 233 2
+141c 8 234 2
+FUNC 1424 c4 0 __gnu_Unwind_Backtrace
+1424 4 557 5
+1428 4 549 5
+142c 4 560 5
+1430 4 557 5
+1434 c 549 5
+1440 28 560 5
+1468 8 562 5
+1470 14 567 5
+1484 8 569 5
+148c 10 578 5
+149c 14 581 5
+14b0 14 589 5
+14c4 8 594 5
+14cc 4 589 5
+14d0 4 594 5
+14d4 8 596 5
+14dc c 598 5
+FUNC 14e8 3f0 0 __gnu_unwind_pr_common
+14e8 8 610 5
+14f0 4 622 5
+14f4 4 610 5
+14f8 4 625 5
+14fc 4 610 5
+1500 4 623 5
+1504 4 620 5
+1508 4 623 5
+150c 4 624 5
+1510 4 623 5
+1514 4 625 5
+1518 4 627 5
+151c 4 629 5
+1520 4 627 5
+1524 4 628 5
+1528 8 629 5
+1530 8 631 5
+1538 8 633 5
+1540 8 634 5
+1548 4 636 5
+154c 8 635 5
+1554 4 636 5
+1558 4 640 5
+155c 4 643 5
+1560 4 641 5
+1564 8 643 5
+156c c 768 5
+1578 c 646 5
+1584 4 651 5
+1588 4 664 5
+158c 8 665 5
+1594 4 654 5
+1598 4 655 5
+159c 4 660 5
+15a0 4 659 5
+15a4 4 661 5
+15a8 8 664 5
+15b0 8 665 5
+15b8 10 666 5
+15c8 14 666 5
+15dc 24 668 5
+1600 18 672 5
+1618 8 679 5
+1620 4 682 5
+1624 4 679 5
+1628 10 683 5
+1638 10 686 5
+1648 4 690 5
+164c 4 691 5
+1650 8 695 5
+1658 8 697 5
+1660 4 706 5
+1664 4 701 5
+1668 4 706 5
+166c 4 701 5
+1670 4 706 5
+1674 4 711 5
+1678 8 710 5
+1680 4 711 5
+1684 8 714 5
+168c 8 716 5
+1694 4 714 5
+1698 8 716 5
+16a0 8 724 5
+16a8 c 727 5
+16b4 8 732 5
+16bc 4 735 5
+16c0 4 740 5
+16c4 4 726 5
+16c8 4 735 5
+16cc 8 732 5
+16d4 18 747 5
+16ec c 748 5
+16f8 8 754 5
+1700 4 755 5
+1704 4 754 5
+1708 8 755 5
+1710 10 756 5
+1720 8 757 5
+1728 4 760 5
+172c 4 761 5
+1730 4 764 5
+1734 4 766 5
+1738 4 764 5
+173c 4 766 5
+1740 8 768 5
+1748 14 768 5
+175c 4 780 5
+1760 4 768 5
+1764 8 777 5
+176c 8 775 5
+1774 4 779 5
+1778 4 777 5
+177c 8 778 5
+1784 4 777 5
+1788 4 778 5
+178c 8 780 5
+1794 4 778 5
+1798 18 780 5
+17b0 c 789 5
+17bc 4 790 5
+17c0 4 788 5
+17c4 4 790 5
+17c8 4 791 5
+17cc 8 792 5
+17d4 18 797 5
+17ec c 798 5
+17f8 4 804 5
+17fc 4 805 5
+1800 4 803 5
+1804 4 805 5
+1808 4 806 5
+180c 4 804 5
+1810 4 806 5
+1814 c 808 5
+1820 4 810 5
+1824 8 812 5
+182c 4 814 5
+1830 4 812 5
+1834 8 814 5
+183c c 815 5
+1848 4 819 5
+184c 4 821 5
+1850 4 823 5
+1854 4 821 5
+1858 4 822 5
+185c 4 823 5
+1860 4 824 5
+1864 4 616 5
+1868 8 834 5
+1870 8 837 5
+1878 14 842 5
+188c 4 846 5
+1890 4 854 5
+1894 4 846 5
+1898 1c 849 5
+18b4 14 850 5
+18c8 4 828 5
+18cc c 855 5
+FUNC 18d8 8 0 __aeabi_unwind_cpp_pr0
+18d8 8 494 4
+FUNC 18e0 8 0 __aeabi_unwind_cpp_pr1
+18e0 8 502 4
+FUNC 18e8 8 0 __aeabi_unwind_cpp_pr2
+18e8 8 510 4
+FUNC 18f0 34c 0 _Unwind_VRS_Pop
+18f0 c 220 4
+18fc 4 220 4
+1900 20 223 4
+1920 8 231 4
+1928 4 234 4
+192c 4 235 4
+1930 c 239 4
+193c 4 237 4
+1940 c 240 4
+194c 8 237 4
+1954 4 243 4
+1958 4 244 4
+195c 8 243 4
+1964 c 262 4
+1970 4 263 4
+1974 4 250 4
+1978 4 251 4
+197c 14 263 4
+1990 20 264 4
+19b0 4 269 4
+19b4 4 270 4
+19b8 4 269 4
+19bc 4 271 4
+19c0 4 272 4
+19c4 14 274 4
+19d8 8 278 4
+19e0 c 278 4
+19ec 4 282 4
+19f0 c 280 4
+19fc 4 282 4
+1a00 8 285 4
+1a08 8 286 4
+1a10 8 291 4
+1a18 4 292 4
+1a1c 8 296 4
+1a24 c 297 4
+1a30 c 299 4
+1a3c 4 300 4
+1a40 8 307 4
+1a48 8 308 4
+1a50 c 321 4
+1a5c 8 312 4
+1a64 8 313 4
+1a6c 8 316 4
+1a74 8 317 4
+1a7c 4 321 4
+1a80 4 326 4
+1a84 4 327 4
+1a88 4 326 4
+1a8c 4 327 4
+1a90 4 330 4
+1a94 4 329 4
+1a98 c 330 4
+1aa4 4 329 4
+1aa8 4 331 4
+1aac 10 332 4
+1abc 8 336 4
+1ac4 c 340 4
+1ad0 4 342 4
+1ad4 4 339 4
+1ad8 4 342 4
+1adc 4 343 4
+1ae0 4 342 4
+1ae4 8 343 4
+1aec 14 344 4
+1b00 4 348 4
+1b04 4 349 4
+1b08 4 355 4
+1b0c 4 352 4
+1b10 4 355 4
+1b14 c 356 4
+1b20 8 360 4
+1b28 8 361 4
+1b30 8 364 4
+1b38 c 365 4
+1b44 8 378 4
+1b4c 4 372 4
+1b50 4 373 4
+1b54 c 378 4
+1b60 c 381 4
+1b6c 8 384 4
+1b74 4 385 4
+1b78 4 391 4
+1b7c 4 397 4
+1b80 4 396 4
+1b84 8 391 4
+1b8c 4 395 4
+1b90 c 397 4
+1b9c 4 398 4
+1ba0 10 399 4
+1bb0 4 405 4
+1bb4 4 402 4
+1bb8 8 405 4
+1bc0 c 415 4
+1bcc c 418 4
+1bd8 8 421 4
+1be0 4 422 4
+1be4 c 428 4
+1bf0 4 430 4
+1bf4 4 431 4
+1bf8 8 432 4
+1c00 c 433 4
+1c0c c 431 4
+1c18 4 436 4
+1c1c c 439 4
+1c28 8 232 4
+1c30 4 246 4
+1c34 8 446 4
+FUNC 1de4 60 0 next_unwind_byte
+1de4 c 84 3
+1df0 c 87 3
+1dfc 8 89 3
+1e04 14 90 3
+1e18 8 91 3
+1e20 8 94 3
+1e28 4 97 3
+1e2c 8 98 3
+1e34 8 99 3
+1e3c 4 88 3
+1e40 4 100 3
+FUNC 1e44 28 0 _Unwind_GetGR
+1e44 4 220 2
+1e48 18 223 2
+1e60 c 225 2
+FUNC 1e6c 4 0 unwind_UCB_from_context
+1e6c 4 339 3
+FUNC 1e70 37c 0 __gnu_unwind_execute
+1e70 4 105 3
+1e74 4 204 3
+1e78 8 105 3
+1e80 4 110 3
+1e84 4 176 3
+1e88 8 113 3
+1e90 4 114 3
+1e94 4 113 3
+1e98 4 114 3
+1e9c 8 117 3
+1ea4 1c 119 3
+1ec0 1c 121 3
+1edc c 128 3
+1ee8 4 133 3
+1eec 10 134 3
+1efc 4 133 3
+1f00 8 134 3
+1f08 4 133 3
+1f0c 4 135 3
+1f10 4 136 3
+1f14 c 138 3
+1f20 c 143 3
+1f2c 10 145 3
+1f3c 8 146 3
+1f44 8 149 3
+1f4c 4 152 3
+1f50 c 153 3
+1f5c 4 152 3
+1f60 c 153 3
+1f6c c 157 3
+1f78 8 160 3
+1f80 c 163 3
+1f8c 18 167 3
+1fa4 18 168 3
+1fbc 4 169 3
+1fc0 8 171 3
+1fc8 c 176 3
+1fd4 4 177 3
+1fd8 4 176 3
+1fdc 4 179 3
+1fe0 4 178 3
+1fe4 8 179 3
+1fec 8 184 3
+1ff4 8 187 3
+1ffc 8 189 3
+2004 8 190 3
+200c 8 190 3
+2014 c 194 3
+2020 8 199 3
+2028 14 204 3
+203c 4 207 3
+2040 4 204 3
+2044 8 206 3
+204c 10 208 3
+205c 8 210 3
+2064 4 212 3
+2068 4 211 3
+206c 8 212 3
+2074 4 214 3
+2078 4 215 3
+207c 8 214 3
+2084 8 215 3
+208c 8 219 3
+2094 8 222 3
+209c 4 224 3
+20a0 c 223 3
+20ac 8 224 3
+20b4 c 229 3
+20c0 4 234 3
+20c4 4 235 3
+20c8 4 234 3
+20cc c 235 3
+20d8 8 240 3
+20e0 8 242 3
+20e8 8 245 3
+20f0 4 247 3
+20f4 c 246 3
+2100 c 247 3
+210c 8 252 3
+2114 8 254 3
+211c 8 255 3
+2124 8 255 3
+212c c 259 3
+2138 c 264 3
+2144 4 267 3
+2148 4 268 3
+214c 4 267 3
+2150 c 268 3
+215c 8 273 3
+2164 8 276 3
+216c 14 277 3
+2180 8 283 3
+2188 8 286 3
+2190 c 287 3
+219c 10 288 3
+21ac c 296 3
+21b8 4 299 3
+21bc 4 300 3
+21c0 4 299 3
+21c4 1c 300 3
+21e0 4 308 3
+21e4 8 309 3
+FUNC 21ec 40 0 __gnu_unwind_frame
+21ec 4 318 3
+21f0 4 322 3
+21f4 8 331 3
+21fc c 326 3
+2208 8 327 3
+2210 8 328 3
+2218 8 329 3
+2220 4 331 3
+2224 8 332 3
+FUNC 222c 10 0 _Unwind_GetRegionStart
+222c 4 346 3
+2230 4 349 3
+2234 8 351 3
+FUNC 223c 1c 0 _Unwind_GetLanguageSpecificData
+223c 4 357 3
+2240 4 362 3
+2244 4 363 3
+2248 8 367 3
+2250 8 370 3
+FUNC 2258 8 0 _Unwind_GetDataRelBase
+2258 4 377 3
+225c 4 378 3
+FUNC 2260 8 0 _Unwind_GetTextRelBase
+2260 4 383 3
+2264 4 384 3
+PUBLIC c80 0 CODEC_register_me
+PUBLIC d0c 0 CODEC_unregister_me
+PUBLIC d2c 0 CODEC_get_codec_by_name
+PUBLIC 1198 0 _Unwind_GetCFA
+PUBLIC 11a0 0 __gnu_Unwind_RaiseException
+PUBLIC 1244 0 __gnu_Unwind_ForcedUnwind
+PUBLIC 1260 0 __gnu_Unwind_Resume
+PUBLIC 12d4 0 __gnu_Unwind_Resume_or_Rethrow
+PUBLIC 12f4 0 _Unwind_Complete
+PUBLIC 12f8 0 _Unwind_DeleteException
+PUBLIC 1318 0 _Unwind_VRS_Get
+PUBLIC 139c 0 _Unwind_VRS_Set
+PUBLIC 1424 0 __gnu_Unwind_Backtrace
+PUBLIC 18d8 0 __aeabi_unwind_cpp_pr0
+PUBLIC 18e0 0 __aeabi_unwind_cpp_pr1
+PUBLIC 18e8 0 __aeabi_unwind_cpp_pr2
+PUBLIC 18f0 0 _Unwind_VRS_Pop
+PUBLIC 1c3c 0 restore_core_regs
+PUBLIC 1c50 0 __gnu_Unwind_Restore_VFP
+PUBLIC 1c58 0 __gnu_Unwind_Save_VFP
+PUBLIC 1c60 0 __gnu_Unwind_Restore_VFP_D
+PUBLIC 1c68 0 __gnu_Unwind_Save_VFP_D
+PUBLIC 1c70 0 __gnu_Unwind_Restore_VFP_D_16_to_31
+PUBLIC 1c78 0 __gnu_Unwind_Save_VFP_D_16_to_31
+PUBLIC 1c80 0 __gnu_Unwind_Restore_WMMXD
+PUBLIC 1cc4 0 __gnu_Unwind_Save_WMMXD
+PUBLIC 1d08 0 __gnu_Unwind_Restore_WMMXC
+PUBLIC 1d1c 0 __gnu_Unwind_Save_WMMXC
+PUBLIC 1d30 0 ___Unwind_RaiseException
+PUBLIC 1d54 0 ___Unwind_Resume
+PUBLIC 1d78 0 ___Unwind_Resume_or_Rethrow
+PUBLIC 1d9c 0 ___Unwind_ForcedUnwind
+PUBLIC 1dc0 0 ___Unwind_Backtrace
+PUBLIC 1e70 0 __gnu_unwind_execute
+PUBLIC 21ec 0 __gnu_unwind_frame
+PUBLIC 222c 0 _Unwind_GetRegionStart
+PUBLIC 223c 0 _Unwind_GetLanguageSpecificData
+PUBLIC 2258 0 _Unwind_GetDataRelBase
+PUBLIC 2260 0 _Unwind_GetTextRelBase
+STACK CFI INIT c80 8c .cfa: sp 0 + .ra: lr
+STACK CFI c88 .cfa: sp 8 + .ra: .cfa -4 + ^ r4: .cfa -8 + ^
+STACK CFI INIT d0c 20 .cfa: sp 0 + .ra: lr
+STACK CFI d18 .cfa: sp 8 + .ra: .cfa -4 + ^ r3: .cfa -8 + ^
+STACK CFI INIT d2c 38 .cfa: sp 0 + .ra: lr
+STACK CFI d34 .cfa: sp 16 + .ra: .cfa -4 + ^ r3: .cfa -16 + ^ r4: .cfa -12 + ^ r5: .cfa -8 + ^
+STACK CFI INIT d64 18 .cfa: sp 0 + .ra: lr
+STACK CFI INIT d7c ac .cfa: sp 0 + .ra: lr
+STACK CFI d80 .cfa: sp 48 + .ra: .cfa -4 + ^ r0: .cfa -48 + ^ r1: .cfa -44 + ^ r10: .cfa -12 + ^ r11: .cfa -8 + ^ r2: .cfa -40 + ^ r4: .cfa -36 + ^ r5: .cfa -32 + ^ r6: .cfa -28 + ^ r7: .cfa -24 + ^ r8: .cfa -20 + ^ r9: .cfa -16 + ^
+STACK CFI INIT e28 50 .cfa: sp 0 + .ra: lr
+STACK CFI INIT e78 10c .cfa: sp 0 + .ra: lr
+STACK CFI e80 .cfa: sp 24 + .ra: .cfa -4 + ^ r0: .cfa -24 + ^ r1: .cfa -20 + ^ r2: .cfa -16 + ^ r4: .cfa -12 + ^ r5: .cfa -8 + ^
+STACK CFI INIT f84 6c .cfa: sp 0 + .ra: lr
+STACK CFI f8c .cfa: sp 8 + .ra: .cfa -4 + ^ r4: .cfa -8 + ^
+STACK CFI INIT ff0 14 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 1004 8 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 100c 4 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 1010 64 .cfa: sp 0 + .ra: lr
+STACK CFI 1014 .cfa: sp 16 + .ra: .cfa -4 + ^ r4: .cfa -16 + ^ r5: .cfa -12 + ^ r6: .cfa -8 + ^
+STACK CFI INIT 1074 124 .cfa: sp 0 + .ra: lr
+STACK CFI 1078 .cfa: sp 36 + .ra: .cfa -4 + ^ r10: .cfa -12 + ^ r11: .cfa -8 + ^ r4: .cfa -36 + ^ r5: .cfa -32 + ^ r6: .cfa -28 + ^ r7: .cfa -24 + ^ r8: .cfa -20 + ^ r9: .cfa -16 + ^
+STACK CFI 1094 .cfa: sp 1008 +
+STACK CFI INIT 1198 8 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 11a0 a4 .cfa: sp 0 + .ra: lr
+STACK CFI 11a8 .cfa: sp 20 + .ra: .cfa -4 + ^ r4: .cfa -20 + ^ r5: .cfa -16 + ^ r6: .cfa -12 + ^ r7: .cfa -8 + ^
+STACK CFI 11bc .cfa: sp 504 +
+STACK CFI INIT 1244 1c .cfa: sp 0 + .ra: lr
+STACK CFI INIT 1260 74 .cfa: sp 0 + .ra: lr
+STACK CFI 1264 .cfa: sp 16 + .ra: .cfa -4 + ^ r4: .cfa -16 + ^ r5: .cfa -12 + ^ r6: .cfa -8 + ^
+STACK CFI INIT 12d4 20 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 12f4 4 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 12f8 20 .cfa: sp 0 + .ra: lr
+STACK CFI 12fc .cfa: sp 8 + .ra: .cfa -4 + ^ r3: .cfa -8 + ^
+STACK CFI INIT 1318 5c .cfa: sp 0 + .ra: lr
+STACK CFI INIT 1374 28 .cfa: sp 0 + .ra: lr
+STACK CFI 1378 .cfa: sp 24 + .ra: .cfa -4 + ^ r0: .cfa -24 + ^ r1: .cfa -20 + ^ r2: .cfa -16 + ^ r3: .cfa -12 + ^ r4: .cfa -8 + ^
+STACK CFI INIT 139c 5c .cfa: sp 0 + .ra: lr
+STACK CFI INIT 13f8 2c .cfa: sp 0 + .ra: lr
+STACK CFI 13fc .cfa: sp 24 + .ra: .cfa -4 + ^ r0: .cfa -24 + ^ r1: .cfa -20 + ^ r2: .cfa -16 + ^ r3: .cfa -12 + ^ r4: .cfa -8 + ^
+STACK CFI INIT 1424 c4 .cfa: sp 0 + .ra: lr
+STACK CFI 142c .cfa: sp 24 + .ra: .cfa -4 + ^ r4: .cfa -24 + ^ r5: .cfa -20 + ^ r6: .cfa -16 + ^ r7: .cfa -12 + ^ r8: .cfa -8 + ^
+STACK CFI 1440 .cfa: sp 592 +
+STACK CFI INIT 14e8 3f0 .cfa: sp 0 + .ra: lr
+STACK CFI 14ec .cfa: sp 36 + .ra: .cfa -4 + ^ r10: .cfa -12 + ^ r11: .cfa -8 + ^ r4: .cfa -36 + ^ r5: .cfa -32 + ^ r6: .cfa -28 + ^ r7: .cfa -24 + ^ r8: .cfa -20 + ^ r9: .cfa -16 + ^
+STACK CFI 14f8 .cfa: sp 72 +
+STACK CFI INIT 18d8 8 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 18e0 8 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 18e8 8 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 18f0 34c .cfa: sp 0 + .ra: lr
+STACK CFI 18f4 .cfa: sp 28 + .ra: .cfa -4 + ^ r4: .cfa -28 + ^ r5: .cfa -24 + ^ r6: .cfa -20 + ^ r7: .cfa -16 + ^ r8: .cfa -12 + ^ r9: .cfa -8 + ^
+STACK CFI 18fc .cfa: sp 296 +
+STACK CFI INIT 1de4 60 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 1e44 28 .cfa: sp 0 + .ra: lr
+STACK CFI 1e48 .cfa: sp 24 + .ra: .cfa -4 + ^ r0: .cfa -24 + ^ r1: .cfa -20 + ^ r2: .cfa -16 + ^ r3: .cfa -12 + ^ r4: .cfa -8 + ^
+STACK CFI INIT 1e6c 4 .cfa: sp 0 + .ra: lr
+STACK CFI INIT 1e70 37c .cfa: sp 0 + .ra: lr
+STACK CFI 1e74 .cfa: sp 48 + .ra: .cfa -4 + ^ r0: .cfa -48 + ^ r1: .cfa -44 + ^ r10: .cfa -8 + ^ r2: .cfa -40 + ^ r3: .cfa -36 + ^ r4: .cfa -32 + ^ r5: .cfa -28 + ^ r6: .cfa -24 + ^ r7: .cfa -20 + ^ r8: .cfa -16 + ^ r9: .cfa -12 + ^
+STACK CFI INIT 21ec 40 .cfa: sp 0 + .ra: lr
+STACK CFI 21f0 .cfa: sp 24 + .ra: .cfa -4 + ^ r0: .cfa -24 + ^ r1: .cfa -20 + ^ r2: .cfa -16 + ^ r3: .cfa -12 + ^ r4: .cfa -8 + ^
+STACK CFI INIT 222c 10 .cfa: sp 0 + .ra: lr
+STACK CFI 2230 .cfa: sp 8 + .ra: .cfa -4 + ^ r3: .cfa -8 + ^
+STACK CFI INIT 223c 1c .cfa: sp 0 + .ra: lr
+STACK CFI 2240 .cfa: sp 8 + .ra: .cfa -4 + ^ r3: .cfa -8 + ^
+STACK CFI INIT 2258 8 .cfa: sp 0 + .ra: lr
+STACK CFI 225c .cfa: sp 8 + .ra: .cfa -4 + ^ r3: .cfa -8 + ^
+STACK CFI INIT 2260 8 .cfa: sp 0 + .ra: lr
+STACK CFI 2264 .cfa: sp 8 + .ra: .cfa -4 + ^ r3: .cfa -8 + ^

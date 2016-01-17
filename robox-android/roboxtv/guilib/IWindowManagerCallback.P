@@ -1,0 +1,4 @@
+IWindowManagerCallback.o: IWindowManagerCallback.cpp \
+ IWindowManagerCallback.h
+IWindowManagerCallback.cpp :
+ IWindowManagerCallback.h :

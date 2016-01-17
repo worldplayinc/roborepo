@@ -1,0 +1,10 @@
+prefix=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libdvdcss
+Description: DVD access and decryption library.
+Version: 1.2.13
+Libs: -L${libdir} -ldvdcss
+Cflags: -I${includedir} -I${includedir}/dvdcss

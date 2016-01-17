@@ -1,0 +1,29 @@
+Platinum/Source/Devices/MediaRenderer/AVTransportSCPD.o: \
+ Platinum/Source/Devices/MediaRenderer/AVTransportSCPD.cpp \
+ Neptune/Source/Core/NptTypes.h Neptune/Source/Core/NptConfig.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h
+ Platinum/Source/Devices/MediaRenderer/AVTransportSCPD.cpp :
+ Neptune/Source/Core/NptTypes.h Neptune/Source/Core/NptConfig.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h :

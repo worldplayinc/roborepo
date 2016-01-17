@@ -1,0 +1,11 @@
+prefix=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17
+exec_prefix=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17
+libdir=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/lib
+includedir=/home/zach/zach/opt/xbmc-depends/arm-linux-androideabi-android-17/include
+
+Name: libdvdread
+Description: Low level DVD access library
+Version: 4.2.1
+
+Cflags: -I${includedir}
+Libs: -L${libdir} -ldvdread

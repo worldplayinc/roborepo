@@ -1,0 +1,2 @@
+consio.o: consio.cpp
+consio.cpp :

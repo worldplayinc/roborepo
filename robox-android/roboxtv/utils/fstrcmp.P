@@ -1,0 +1,14 @@
+fstrcmp.o: fstrcmp.c \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h
+fstrcmp.c :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h :

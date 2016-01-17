@@ -1,0 +1,149 @@
+src/ioctl.lo: src/ioctl.c config.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/netinet/in.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/socket.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/socket.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/sockios.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/sockios.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/uio.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/in.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/byteorder.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/byteorder/little_endian.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/byteorder/swab.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/byteorder/generic.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/in6.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/ipv6.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/netinet/in6.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/ioctl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/ioctl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/ioctl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/ioctl.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/ioctls.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/termbits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/ioctl_compat.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/cdrom.h \
+ src/common.h src/ioctl.h
+
+config.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/netinet/in.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/endian.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/endian.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/endian.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/socket.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/socket.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/sockios.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/sockios.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/uio.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/in.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/byteorder.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/byteorder/little_endian.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/byteorder/swab.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/byteorder/generic.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/in6.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/ipv6.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/netinet/in6.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/ioctl.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/ioctl.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/ioctl.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm-generic/ioctl.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/ioctls.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/termbits.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/ioctl_compat.h:
+
+/home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/cdrom.h:
+
+src/common.h:
+
+src/ioctl.h:

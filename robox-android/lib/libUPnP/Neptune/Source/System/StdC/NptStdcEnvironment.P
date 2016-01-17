@@ -1,0 +1,109 @@
+Neptune/Source/System/StdC/NptStdcEnvironment.o: \
+ Neptune/Source/System/StdC/NptStdcEnvironment.cpp \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdlib.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/alloca.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/strings.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/memory.h \
+ Neptune/Source/Core/NptConfig.h Neptune/Source/Core/NptUtils.h \
+ Neptune/Source/Core/NptConfig.h Neptune/Source/Core/NptTypes.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h \
+ Neptune/Source/Core/NptStrings.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/new \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++config.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/os_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/cpu_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/exception \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_ptr.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_defines.h \
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/nested_exception.h \
+ Neptune/Source/Core/NptConstants.h Neptune/Source/Core/NptList.h \
+ Neptune/Source/Core/NptResults.h Neptune/Source/Core/NptCommon.h \
+ Neptune/Source/Core/NptArray.h Neptune/Source/Core/NptDebug.h \
+ Neptune/Source/Core/NptHash.h Neptune/Source/Core/NptMap.h \
+ Neptune/Source/Core/NptDataBuffer.h \
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h \
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ Neptune/Source/Core/NptResults.h
+ Neptune/Source/System/StdC/NptStdcEnvironment.cpp :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdlib.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/cdefs_elf.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/android/api-level.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/string.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/malloc.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/alloca.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/strings.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdint.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/_wchar_limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/posix_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/stddef.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/compiler.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/posix_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/kernel.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/sysmacros.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/memory.h :
+ Neptune/Source/Core/NptConfig.h Neptune/Source/Core/NptUtils.h :
+ Neptune/Source/Core/NptConfig.h Neptune/Source/Core/NptTypes.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/linux/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/internal_types.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/machine/limits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/sys/syslimits.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/asm/page.h :
+ Neptune/Source/Core/NptStrings.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/new :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/c++config.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/os_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/arm-linux-androideabi/armv7-a/bits/cpu_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/exception :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/atomic_lockfree_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_ptr.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/exception_defines.h :
+ /home/zach/zach/opt/android-toolchain/android-17/include/c++/4.8/bits/nested_exception.h :
+ Neptune/Source/Core/NptConstants.h Neptune/Source/Core/NptList.h :
+ Neptune/Source/Core/NptResults.h Neptune/Source/Core/NptCommon.h :
+ Neptune/Source/Core/NptArray.h Neptune/Source/Core/NptDebug.h :
+ Neptune/Source/Core/NptHash.h Neptune/Source/Core/NptMap.h :
+ Neptune/Source/Core/NptDataBuffer.h :
+ /home/zach/zach/opt/android-toolchain/android-17/sysroot/usr/include/stdio.h :
+ /home/zach/zach/opt/android-toolchain/android-17/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h :
+ Neptune/Source/Core/NptResults.h :
